@@ -28,4 +28,4 @@ Monthly returns: percentage change from T - 20 market days to T
 4. Fun with regression instead of ML if there is time
 ### Purpose
 - We will use monthly return data instead of price as price does not follow any distribution
-- Interest rates are relatively 
+- Interest rates seems to have an upper bound so no need for data conversion.
