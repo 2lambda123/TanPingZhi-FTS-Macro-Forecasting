@@ -18,7 +18,7 @@ Terminologies
 Monthly returns: percentage change from T - 20 market days to T 
 
 # To do
-1.  Data collection
+1.  Data collection (only vix and real estate prices are provided, the other data can be sourced from  yfinance (python library), [FRED](https://fred.stlouisfed.org/), [WRDS](https://wrds-www.wharton.upenn.edu/login/?next=/pages/get-data/)(lmk if you want access)
 - [ ] SP500 (get data, get list of monthly returns, find the value of -1, -0.5, 0.5, 1 sigma monthly returns that will be used for classification later on)
 - [ ] VIX and [WTI](https://fred.stlouisfed.org/series/DCOILWTICO) (get data, WTI monthly returns)
 - [ ] [Real estate prices](https://fred.stlouisfed.org/series/WILLRESIND) (get data, monthly returns)
