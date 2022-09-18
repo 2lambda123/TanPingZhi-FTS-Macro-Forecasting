@@ -1,5 +1,31 @@
 # FTS-Macro-Forecasting
 NUS Fintech Society Project AY22/23S1 
 
-## Team Members:
+### Team Members:
 Tan Ping Zhi
+
+# Motivations
+Garbage stocks go up in bull market
+
+Strong stocks go down in bear market
+
+Idea: Be a macro trader instead
+
+## Goal of the project:
+Use ML to trade like a macro pro investor like [Ray Dalio](https://en.wikipedia.org/wiki/Ray_Dalio)
+
+Terminologies
+Monthly returns: percentage change from T - 20 market days to T 
+
+# To do
+1.  Data collection
+- [ ] SP500 (get data, get list of monthly returns, find the value of -1, -0.5, 0.5, 1 sigma monthly returns that will be used for classification later on)
+- [ ] VIX and [WTI](https://fred.stlouisfed.org/series/DCOILWTICO) (get data, WTI monthly returns)
+- [ ] [Real estate prices](https://fred.stlouisfed.org/series/WILLRESIND) (get data, monthly returns)
+- [ ] [Rates](https://wrds-www.wharton.upenn.edu/pages/get-data/federal-reserve-bank-reports/interest-rates/data/)
+2. Train LSTM
+3. See if there's alpha
+4. Fun with regression instead of ML if there is time
+### Purpose
+- We will use monthly return data instead of price as price does not follow any distribution
+- Interest rates are relatively 
