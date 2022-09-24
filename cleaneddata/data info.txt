@@ -21,3 +21,15 @@ colums: (Date,Close,Percentage)
 date range: 19500103-20220923
 dims: (18301,3)
 na values: 20
+
+fed funds rate (ffr):
+columns: (date, rates)
+date range: 1962-01-02 - 2022-09-22
+dims: (21687, 2)
+na values: 0
+
+5 year treasury yield (fyty):
+columns: (date, rates)
+date range: 1962-01-02 - 2022-09-23
+dims: (15194, 2)
+na values: 0
