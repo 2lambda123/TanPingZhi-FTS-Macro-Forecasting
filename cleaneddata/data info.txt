@@ -15,3 +15,9 @@ columns: (PRICE, MONTHLY_RETURNS)
 date range: 1986-01-02 - 2022-09-19
 dims:  (9251, 2)
 na values: 2
+
+SP500:
+colums: (Date,Close,Percentage)
+date range: 19500103-20220923
+dims: (18301,3)
+na values: 20

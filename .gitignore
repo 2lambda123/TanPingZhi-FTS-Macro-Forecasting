@@ -1,3 +1,11 @@
+.git
+.idea
+.test
+*.pyc
+__pycache__
+venv/
+.vscode
+yfinance.cache
 # Mac misc files
 .DS_Store
 *.DS_Store
