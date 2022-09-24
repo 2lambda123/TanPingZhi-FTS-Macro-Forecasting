@@ -21,4 +21,4 @@ del hist["SD"]
 
 print(hist)
 
-save('cleaneddata/data.npy', hist.to_numpy())
+save('cleaneddata/snp500.npy', hist.to_numpy())
