@@ -15,7 +15,7 @@ Idea: Be a macro trader instead
 Use ML to trade like a macro pro investor like [Ray Dalio](https://en.wikipedia.org/wiki/Ray_Dalio)
 
 Terminologies
-Monthly returns: percentage change from T - 20 market days to T 
+Monthly returns: percentage change from T - 20 market days to T for every trading day (rolling change). 
 
 # To do
 1.  Data collection (only vix and real estate prices are provided, the other data can be sourced from  yfinance (python library), [FRED](https://fred.stlouisfed.org/), [WRDS](https://wrds-www.wharton.upenn.edu/login/?next=/pages/get-data/)(lmk if you want access)
