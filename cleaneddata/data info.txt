@@ -9,3 +9,9 @@ colums: (date, closing price)
 date range: 1971-01-04 - 2022-09-23
 dims: (13148, 2)
 na values: 0
+
+wti:
+columns: (PRICE, MONTHLY_RETURNS)
+date range: 1986-01-02 - 2022-09-19
+dims:  (9251, 2)
+na values: 2
