@@ -9,3 +9,5 @@ yfinance.cache
 # Mac misc files
 .DS_Store
 *.DS_Store
+venv
+

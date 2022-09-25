@@ -21,3 +21,9 @@ colums: (Date,Close,Percentage)
 date range: 19500103-20220923
 dims: (18301,3)
 na values: 20
+
+Name of File : vix.npy
+Date Range : 19900102 - 20220923
+Dimensions : (8247, 6)
+Columns : Date, Open, High, Low, Close, Adj Close
+Null Values : None
