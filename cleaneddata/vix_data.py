@@ -10,10 +10,12 @@ from pandas_datareader import data as pdr
 
 
 yf.pdr_override()
-data = pdr.get_data_yahoo("^VIX")[["Open", "High", "Low", "Close", "Adj Close"]]
+# data = pdr.get_data_yahoo("^VIX")[["Open", "High", "Low", "Close", "Adj Close"]]
+data = pdr.get_data_yahoo("^VIX")[["Adj Close"]]
 data.reset_index(inplace=True)
 
 data["Date"] = data["Date"].dt.strftime("%Y%m%d")
 
 
-np.save("vix.npy", data.to_numpy())
+np.save("vixclose.npy", data.to_numpy())
+
