@@ -25,7 +25,7 @@
 - [What is Attention?](https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/)
 
 ## Briefing
-The model that we will be **first** using will be LSTM classification model that takes in inputs of look-back of size = 5 to predict the movements of the next 1,2,3,4,5,6 months ahead. (Note 5 is really not ideal but we need to see if we can get things working before putting in too much time waiting for model to train.)
+The model that we will be **first** using will be LSTM classification model that takes in inputs of look-back of ~~size = 5~~ size = 40 (2 months) to predict the movements of the next 1,2,3,4,5,6 months ahead. (Note 5 is really not ideal but we need to see if we can get things working before putting in too much time waiting for model to train.)
 
 Classification
 0 - <= sigma 0.5 movements; < 70th percentile of monthly changes  
