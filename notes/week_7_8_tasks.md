@@ -27,7 +27,7 @@
 The model that we will be **first** using will be LSTM classification model that takes in inputs of look-back of ~~size = 5~~ size = 40 (2 months) to predict the movements of the next 1,2,3,4,5,6 months ahead. (Note 5 is really not ideal but we need to see if we can get things working before putting in too much time waiting for model to train.)
 
 Classification
-0 - <= sigma 0.5 movements; < 70th percentile of monthly changes  
+0 - <= sigma 0.5 movements; < 70th percentile of monthly changes
 1 - > sigma 0.5 movements; >70th percentile of monthly changes
 
 we can do the classification through variance mean normalisation to N(0,1). Then we classify > 0.5 for 1 class for each month
